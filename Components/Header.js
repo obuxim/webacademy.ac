@@ -3,7 +3,7 @@ import Navbar from "./Navbar"
 const Header = () => {
     return (
         <>
-        <div className="header header-transparent change-logo">
+        <div className="header change-logo">
           <div className="container">
            <Navbar />
           </div>

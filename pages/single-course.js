@@ -1,5 +1,5 @@
-import CourseHeader from "../Components/Single Course/Course-Header";
-import SingleCourse from "../Components/Single Course/Single-Course";
+import CourseHeader from "../Components/SingleCourse/Course-Header";
+import SingleCourse from "../Components/SingleCourse/Single-Course";
 
 export default function SingleCoursePage() {
     return (

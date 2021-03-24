@@ -1,5 +1,5 @@
-import BlogSingle from "../Components/Blog Single/Blog-Single";
-import Breadcrumbs from "../Components/Blog Single/Breadcrumbs";
+import BlogSingle from "../Components/BlogSingle/Blog-Single";
+import Breadcrumbs from "../Components/BlogSingle/Breadcrumbs";
 
 export default function BlogSinglePage() {
     return (

@@ -8,7 +8,7 @@ const Title = () => {
                 <div className="row">
                 <div className="col-lg-12 col-md-12">
                     <div className="breadcrumbs-wrap">
-                    <h1 className="breadcrumb-title">Who We are?</h1>
+                    <h1 className="breadcrumb-title">About Us</h1>
                     <nav aria-label="breadcrumb">
                         <ol className="breadcrumb">
                         <li className="breadcrumb-item"><a href="#">Home</a></li>

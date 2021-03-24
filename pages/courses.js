@@ -1,5 +1,5 @@
-import AllCourses from "../Components/All Course/All-Courses";
-import CourseTitle from "../Components/All Course/Course-Title";
+import AllCourses from "../Components/AllCourse/All-Courses";
+import CourseTitle from "../Components/AllCourse/Course-Title";
 
 export default function AllCoursePage () {
     return (

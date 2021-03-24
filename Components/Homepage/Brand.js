@@ -1,6 +1,15 @@
 import React from 'react'
+import Slider from 'react-slick';
 
 const Brand = () => {
+    const settings = {
+        dots: false,
+        infinite: true,
+        speed: 500,
+        autoplay:true,
+        slidesToShow: 5,
+        slidesToScroll: 1
+      };
     return (
         <>
     <section>
@@ -15,7 +24,7 @@ const Brand = () => {
             </div>
             <div className="row">
             <div className="col-lg-12 col-md-12">
-                <div className="single_brand" id="brand-slide">
+                <Slider {...settings} className="single_brand" id="brand-slide">
                 <div className="single_brands">
                     <img src="https://via.placeholder.com/200x65" className="img-fluid" alt />
                 </div>
@@ -37,7 +46,7 @@ const Brand = () => {
                 <div className="single_brands">
                     <img src="https://via.placeholder.com/200x65" className="img-fluid" alt />
                 </div>
-                </div>
+                </Slider>
             </div>
             </div>
         </div>

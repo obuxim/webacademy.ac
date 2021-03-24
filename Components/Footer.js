@@ -1,32 +1,18 @@
 import React from 'react'
+import Newsletter from './Newsletter'
+import Link from 'next/link';
 
 const Footer = () => {
     return (
         <>
-       <section className="newsletter theme-bg inverse-theme">
-        <div className="container">
-            <div className="row justify-content-center">
-            <div className="col-lg-7 col-md-8 col-sm-12">
-                <div className="text-center">
-                <h2>Join to Get Regular Update</h2>
-                <p>Subscribe with us</p>
-                <form className="sup-form">
-                    <input type="email" className="form-control sigmup-me" placeholder="Your Email Address" required="required" />
-                    <input type="submit" className="btn btn-theme" defaultValue="Get Started" />
-                </form>
-                </div>
-            </div>
-            </div>
-        </div>
-        </section>
-
+       <Newsletter />
         <footer className="dark-footer skin-dark-footer">
             <div>
             <div className="container">
                 <div className="row">
                 <div className="col-lg-3 col-md-3">
                     <div className="footer-widget">
-                    <img src="assets/img/logo-light.png" className="img-footer" alt />
+                    <img src="assets/img/webacademy.png" className="img-footer" alt />
                     <div className="footer-add">
                         <p>4967  Sardis Sta, Victoria 8007, Montreal.</p>
                         <p>+1 246-345-0695</p>
@@ -36,67 +22,29 @@ const Footer = () => {
                 </div>		
                 <div className="col-lg-2 col-md-3">
                     <div className="footer-widget">
-                    <h4 className="widget-title">Navigations</h4>
+                    <h4 className="widget-title">About</h4>
                     <ul className="footer-menu">
-                        <li><a href="about-us.html">About Us</a></li>
-                        <li><a href="faq.html">FAQs Page</a></li>
-                        <li><a href="checkout.html">Checkout</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                        <li><a href="blog.html">Blog</a></li>
+                        <li><Link href="/courses"><a>All Courses</a></Link></li>
+                        <li><Link href="/about"><a>About Us</a></Link></li>
+                        <li><Link href="/contact"><a>Contact Us</a></Link></li>
+                        <li><Link href="/"><a>Free Quizzes</a></Link></li>
+                        <li><Link href="/resourse"><a>Free Resources</a></Link></li>
                     </ul>
                     </div>
                 </div>
                 <div className="col-lg-2 col-md-3">
                     <div className="footer-widget">
-                    <h4 className="widget-title">New Categories</h4>
+                    <h4 className="widget-title">Useful Links</h4>
                     <ul className="footer-menu">
-                        <li><a href="#">Designing</a></li>
-                        <li><a href="#">Nusiness</a></li>
-                        <li><a href="#">Software</a></li>
-                        <li><a href="#">WordPress</a></li>
-                        <li><a href="#">PHP</a></li>
+                        <li><Link href="/blog"><a>Blogs</a></Link></li>
+                        <li><Link href="/privacy"><a> Privacy Policy</a></Link></li>
+                        <li><Link href="/term"><a>Terms & Condition</a></Link></li>
+                        <li><Link href="/redeem"><a>Redeem Voucher </a></Link></li>
+                        <li><Link href="/certificate"><a>Certificate Validate </a></Link></li>
                     </ul>
                     </div>
                 </div>
-                <div className="col-lg-2 col-md-3">
-                    <div className="footer-widget">
-                    <h4 className="widget-title">Help &amp; Support</h4>
-                    <ul className="footer-menu">
-                        <li><a href="#">Documentation</a></li>
-                        <li><a href="#">Live Chat</a></li>
-                        <li><a href="#">Mail Us</a></li>
-                        <li><a href="#">Privacy</a></li>
-                        <li><a href="#">Faqs</a></li>
-                    </ul>
-                    </div>
-                </div>
-                <div className="col-lg-3 col-md-12">
-                    <div className="footer-widget">
-                    <h4 className="widget-title">Download Apps</h4>
-                    <a href="#" className="other-store-link">
-                        <div className="other-store-app">
-                        <div className="os-app-icon">
-                            <i className="lni-playstore theme-cl" />
-                        </div>
-                        <div className="os-app-caps">
-                            Google Play
-                            <span>Get It Now</span>
-                        </div>
-                        </div>
-                    </a>
-                    <a href="#" className="other-store-link">
-                        <div className="other-store-app">
-                        <div className="os-app-icon">
-                            <i className="lni-apple theme-cl" />
-                        </div>
-                        <div className="os-app-caps">
-                            App Store
-                            <span>Now it Available</span>
-                        </div>
-                        </div>
-                    </a>
-                    </div>
-                </div>
+
                 </div>
             </div>
             </div>

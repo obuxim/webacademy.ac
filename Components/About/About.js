@@ -6,40 +6,18 @@ const About = () => {
         <section className="pt-0">
           <div className="container">
             <div className="row align-items-center">
-              <div className="col-lg-6 col-md-6 col-sm-12">
+              <div className="col-lg-12 col-md-12 col-sm-12">
                 <div className="list_facts_wrap">
                 <div className="sec-heading mb-3">
-                    <h2>Web Academy <span className="theme-cl">Facilities</span> </h2>
+                    <h2>Make your thinking visual with the incredible superpowers of web designing! </h2>
                 </div>
                 <div className="list_facts">
-                    <div className="list_facts_icons"><i className="ti-desktop" /></div>
                     <div className="list_facts_caption">
-                    <h4>Learn from Full Stack Designer: Get trained by the expert web designers</h4>
-                    <p>No one rejects, dislikes, or avoids pleasure itself, because it is pleasure</p>
-                    </div>
-                </div>
-                <div className="list_facts">
-                    <div className="list_facts_icons"><i className="ti-heart" /></div>
-                    <div className="list_facts_caption">
-                    <h4>Learn by Doing: Take the opportunity to learn &amp; create simultaneously</h4>
-                    <p>No one rejects, dislikes, or avoids pleasure itself, because it is pleasure</p>
-                    </div>
-                </div>
-                <div className="list_facts">
-                    <div className="list_facts_icons"><i className="ti-harddrives" /></div>
-                    <div className="list_facts_caption">
-                    <h4>Learning awards and rewards: Get certified online after completing any course</h4>
-                    <p>No one rejects, dislikes, or avoids pleasure itself, because it is pleasure</p>
+                   <p style={{fontSize: 16}}>Web Academy is bringing you the most acceptable learning modules of web designing, developed by specialists! The courses we designed are en route to put your design sense and technological fathom down the right path. We provide accredited certification with the completion of any course, which is an excellent means to upgrade your curriculum vitae, thrive in your workplace or kickstart an incredible career. We want to ensure that you understand the complexity of interface design in the simplest way. Our motto is to provide you with the salt and pepper of web development, stimulating your academic and professional life. With the lessons we provide, you will acquire a broad spectrum of skill set and get your foot in the vast web industry door. Yes, no, and wow are the three reactions to a piece of web design. WOW is the one we aim for you to achieve!</p>
                     </div>
                 </div>
                 </div>
-                <a href="#" className="btn btn-modern">Know More<span><i className="ti-arrow-right" /></span></a>
             </div>
-            <div className="col-lg-6 col-md-6 col-sm-12">
-                <div className="list_facts_wrap_img">
-                <img src="https://via.placeholder.com/550x490" className="img-fluid" alt />
-                </div>
-              </div>
             </div>
           </div>
         </section>
